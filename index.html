@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新北旅遊資訊</title>
+    <link rel="stylesheet" href="stylesheet/all.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>高雄旅遊資訊</h1>
+            <select name="YourLocation" class="location" id="location">
+                <option value="" disabled selected>- - 請選擇行政區 - -</option>
+                　<option value="linya">苓雅區</option>
+                　<option value="shenmin">三民區</option>
+                　<option value="hsinhsin">新興區</option>
+                　<option value="gooshen">鼓山區</option>
+            </select>
+        </div>
+        <div class="content">
+            <div class="popular">
+                <p>熱門行政區</p>
+                <div class="btn_popular" id="btn_popular">
+                    <button class="bg-purple">苓雅區</button>
+                    <button class="bg-pink">三民區</button>
+                    <button class="bg-yellow">新興區</button>
+                    <button class="bg-blue">鼓山區</button>
+                </div>
+            </div>
+            <div class="arrow">
+                <img src="img/icons_down.png" alt="">
+            </div>
+            <div class="detail">
+                <p class="title" id="title">三民區</p>
+                <div class="detail-content" id="detail_content">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/all.js"></script>
+
+</html>
